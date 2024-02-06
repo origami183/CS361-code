@@ -1,0 +1,83 @@
+Running suite(s): Default
+======================================
+PUBLIC
+  MIN find one generator
+  Calls find generator(42918971) in a separate thread
+  Should compute 21459486
+
+======================================
+PUBLIC
+  MIN find two generators
+  Calls find_generator(22181233) in a separate thread
+    Should compute 11090619
+  Calls find_generator(30722903) in a separate thread
+    Should compute 15361451
+
+======================================
+PUBLIC
+  MIN last 5 discrete logs
+  Uses threads to compute the discrete logarithms for:
+    g = 26766452;     p = 53532901;     g^n = 6262555
+    g = 14502710;     p = 29005421;     g^n = 301068
+    g = 18833278;     p = 37666553;     g^n = 34096955
+    g = 23219838;     p = 46439677;     g^n = 29442656
+    g = 27658451;     p = 55316903;     g^n = 36415956
+  Thread took 1.354347 seconds
+  Computed n = 40149675 [expected 40149675]
+  Computed n = 21754065 [expected 21754065]
+  Computed n = 28249914 [expected 28249914]
+  Computed n = 34829757 [expected 34829757]
+  Computed n = 41487675 [expected 41487675]
+
+======================================
+PUBLIC
+  MIN parallel discrete logs
+  Uses 4 threads to compute the discrete logarithms for:
+    g = 26766452;     p = 53532901;     g^n = 6262555
+    g = 14502710;     p = 29005421;     g^n = 301068
+    g = 18833278;     p = 37666553;     g^n = 34096955
+    g = 23219838;     p = 46439677;     g^n = 29442656
+    g = 27658451;     p = 55316903;     g^n = 36415956
+    g = 10722318;     p = 11090619;     g^n = 16635924
+    g = 10718795;     p = 15361451;     g^n = 23042175
+    g = 16846904;     p = 19705019;     g^n = 29557527
+    g = 28514080;     p = 24105239;     g^n = 36157857
+    g = 13198105;     p = 11939242;     g^n = 17908860
+    g = 21563282;     p = 16226298;     g^n = 24339447
+    g = 16451148;     p = 20580682;     g^n = 30871020
+    g = 31188765;     p = 24989259;     g^n = 37483887
+    g =  8174568;     p = 12791034;     g^n = 19186551
+    g = 24132030;     p = 17092978;     g^n = 25639464
+    g =  5838284;     p = 21459486;     g^n = 32189226
+    g =  8726777;     p = 25877391;     g^n = 38816082
+    g = 10697873;     p = 13645139;     g^n = 20467707
+    g = 30365043;     p = 17962870;     g^n = 26944302
+    g = 40656885;     p = 22339897;     g^n = 33509838
+  Parallel real-time took 1.363796 seconds
+    Thread 0 took 1.002937 seconds
+    Thread 1 took 1.118091 seconds
+    Thread 2 took 1.235482 seconds
+    Thread 3 took 1.363420 seconds
+  Thread 0 computed n = 16635924 [expected 16635924]
+  Thread 0 computed n = 23042175 [expected 23042175]
+  Thread 0 computed n = 29557527 [expected 29557527]
+  Thread 0 computed n = 36157857 [expected 36157857]
+  Thread 0 computed n = 17908860 [expected 17908860]
+  Thread 1 computed n = 17908860 [expected 17908860]
+  Thread 1 computed n = 24339447 [expected 24339447]
+  Thread 1 computed n = 30871020 [expected 30871020]
+  Thread 1 computed n = 37483887 [expected 37483887]
+  Thread 1 computed n = 19186551 [expected 19186551]
+  Thread 2 computed n = 19186551 [expected 19186551]
+  Thread 2 computed n = 25639464 [expected 25639464]
+  Thread 2 computed n = 32189226 [expected 32189226]
+  Thread 2 computed n = 38816082 [expected 38816082]
+  Thread 2 computed n = 20467707 [expected 20467707]
+  Thread 3 computed n = 20467707 [expected 20467707]
+  Thread 3 computed n = 26944302 [expected 26944302]
+  Thread 3 computed n = 33509838 [expected 33509838]
+  Thread 3 computed n = 40149675 [expected 40149675]
+  Thread 3 computed n = 21754065 [expected 21754065]
+
+  Sequential real-time took 4.756052 seconds
+100%: Checks: 4, Failures: 0, Errors: 0

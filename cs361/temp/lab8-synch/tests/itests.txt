@@ -1,0 +1,3 @@
+MIN_run_mutex                  pass
+MIN_run_pingpong               pass
+No memory leak found.

@@ -1,0 +1,24 @@
+Running suite(s): Default
+======================================
+PUBLIC
+  MIN mutex run two threads
+  Call runner in two threads and ensure result is 0
+CHILD EXIT: 100000000
+CHILD EXIT: 100000000
+Sum of results: 200000000
+
+======================================
+PRIVATE
+  MIN mutex runner two threads time
+  Call runner in two threads and measure time
+  Multithreaded should take more than 3 times and
+    less than 6 times the unithreaded time.
+CHILD EXIT: 100000000
+CHILD EXIT: 100000000
+Sum of results: 200000000
+
+  Unithreaded time: 0.580366
+  Multithreaded time: 1.451553
+
+
+100%: Checks: 2, Failures: 0, Errors: 0

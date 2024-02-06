@@ -1,0 +1,10 @@
+Running suite(s): Default
+
+======================================
+MIN_split_string
+Splits "ha ha" into "ha"
+
+======================================
+MIN_cksum
+Gets cksum of data/f1.txt
+100%: Checks: 2, Failures: 0, Errors: 0

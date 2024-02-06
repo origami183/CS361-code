@@ -1,0 +1,36 @@
+==1627719== Memcheck, a memory error detector
+==1627719== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1627719== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==1627719== Command: ../sigs -s 1 -s 2 -s 11 HUP
+==1627719== 
+HANGUP
+==1627735== 
+==1627735== HEAP SUMMARY:
+==1627735==     in use at exit: 76 bytes in 3 blocks
+==1627735==   total heap usage: 21 allocs, 18 frees, 13,149 bytes allocated
+==1627735== 
+==1627735== LEAK SUMMARY:
+==1627735==    definitely lost: 0 bytes in 0 blocks
+==1627735==    indirectly lost: 0 bytes in 0 blocks
+==1627735==      possibly lost: 0 bytes in 0 blocks
+==1627735==    still reachable: 76 bytes in 3 blocks
+==1627735==         suppressed: 0 bytes in 0 blocks
+==1627735== Rerun with --leak-check=full to see details of leaked memory
+==1627735== 
+==1627735== For lists of detected and suppressed errors, rerun with: -s
+==1627735== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1627719== 
+==1627719== HEAP SUMMARY:
+==1627719==     in use at exit: 64 bytes in 2 blocks
+==1627719==   total heap usage: 21 allocs, 19 frees, 13,149 bytes allocated
+==1627719== 
+==1627719== LEAK SUMMARY:
+==1627719==    definitely lost: 0 bytes in 0 blocks
+==1627719==    indirectly lost: 0 bytes in 0 blocks
+==1627719==      possibly lost: 0 bytes in 0 blocks
+==1627719==    still reachable: 64 bytes in 2 blocks
+==1627719==         suppressed: 0 bytes in 0 blocks
+==1627719== Rerun with --leak-check=full to see details of leaked memory
+==1627719== 
+==1627719== For lists of detected and suppressed errors, rerun with: -s
+==1627719== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

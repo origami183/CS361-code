@@ -1,0 +1,10 @@
+Running suite(s): Default
+
+======================================
+MIN sig_2_msg
+This test checks sig2msg maps the messages correctly
+
+======================================
+MIN getsig
+This test checks getsig maps the messages correctly
+100%: Checks: 2, Failures: 0, Errors: 0

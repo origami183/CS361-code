@@ -1,0 +1,8 @@
+# list of integration tests
+#  format: run_test <TAG> <ARGS>
+#    <TAG>      used as the root for all filenames (i.e., "expected/$TAG.txt")
+#    <ARGS>     command-line arguments to test
+
+run_test    MIN_short               "0 1 5"
+run_test    MIN_longer              "0 1 1 2 7 1 7 5"
+run_test    MIN_invalid             "0 2 1 2 3 3 5 6"

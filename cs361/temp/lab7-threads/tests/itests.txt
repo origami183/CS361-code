@@ -1,0 +1,7 @@
+MIN_logs_small                 pass
+MIN_logs_small_thr             pass
+MIN_logs_medium                pass
+MIN_logs_medium_thr            pass
+MIN_logs_large                 pass
+MIN_logs_large_thr             pass
+No memory leak found.

@@ -1,0 +1,5 @@
+Running mutual exclusion test
+CHILD EXIT: 100000000
+CHILD EXIT: 100000000
+Sum of results: 200000000
+Value of shared: 0

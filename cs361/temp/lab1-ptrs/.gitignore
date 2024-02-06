@@ -1,0 +1,16 @@
+# Ignore all compiled files regardless of location
+*.o
+tests/public.o
+tests/testsuite.o
+
+# Ignore executables for this project
+ptrs
+testsuite
+
+# Ignore test outputs
+tests/ckstyle
+tests/itests.txt
+tests/outputs
+tests/style.txt
+tests/valgrind
+tests/utests.txt

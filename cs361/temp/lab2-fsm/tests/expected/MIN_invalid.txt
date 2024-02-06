@@ -1,0 +1,14 @@
+NEW.ADMIT -> RDY
+  [Process is live]
+RDY.SCHEDULE -> NST
+RDY.DISPATCH -> RUN
+RUN.SCHEDULE -> RDY
+RDY.BLOCK -> BLK
+  [Process is blocked]
+BLK.BLOCK -> NST
+BLK.EXIT -> NST
+BLK.KILL -> TRM
+
+  Process stats:
+    runtime: 1
+    normal exit: false

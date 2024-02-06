@@ -1,0 +1,17 @@
+# Ignore all compiled files regardless of location
+client.o
+main.o
+tests/public.o
+tests/testsuite.o
+
+# Ignore executables for this project
+net
+testsuite
+
+# Ignore test outputs
+tests/ckstyle
+tests/itests.txt
+tests/outputs
+tests/style.txt
+tests/valgrind
+tests/utests.txt

@@ -1,0 +1,2 @@
+Result: HTTP/1.1 301 Moved Permanently
+Type: text/html; charset=iso-8859-1

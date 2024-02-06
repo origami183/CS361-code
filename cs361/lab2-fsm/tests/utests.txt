@@ -1,0 +1,60 @@
+Running suite(s): Default
+NEW.ADMIT -> RDY
+NEW.ADMIT -> RDY
+RDY.DISPATCH -> RUN
+RUN.EXIT -> TRM
+
+======================================
+MINIMUM CREDIT: one_proc_valid_events_state_only
+This test case sets the state, triggers an event, and checks that
+the state is updated correctly.
+Testing valid events from NEW
+NEW.ADMIT -> RDY
+NEW.KILL -> TRM
+Testing valid events from RDY
+RDY.DISPATCH -> RUN
+RDY.BLOCK -> BLK
+RDY.KILL -> TRM
+Testing valid events from RUN
+RUN.DISPATCH -> RUN
+RUN.SCHEDULE -> RDY
+RUN.BLOCK -> BLK
+RUN.EXIT -> TRM
+Testing valid events from BLK
+BLK.UNBLOCK -> RDY
+BLK.KILL -> TRM
+
+======================================
+MINIMUM CREDIT: one_proc_invalid_events_state_only
+This test case sets the state, triggers an invalid event, and
+checks that the state does not change.
+Testing invalid events from NEW
+NEW.DISPATCH -> NST
+NEW.SCHEDULE -> NST
+NEW.BLOCK -> NST
+NEW.UNBLOCK -> NST
+NEW.EXIT -> NST
+Testing invalid events from RDY
+RDY.ADMIT -> NST
+RDY.SCHEDULE -> NST
+RDY.UNBLOCK -> NST
+RDY.EXIT -> NST
+Testing invalid events from RUN
+RUN.ADMIT -> NST
+RUN.UNBLOCK -> NST
+RUN.KILL -> NST
+Testing invalid events from BLK
+BLK.ADMIT -> NST
+BLK.DISPATCH -> NST
+BLK.SCHEDULE -> NST
+BLK.BLOCK -> NST
+BLK.EXIT -> NST
+Testing invalid events from TRM
+TRM.ADMIT -> NST
+TRM.DISPATCH -> NST
+TRM.SCHEDULE -> NST
+TRM.BLOCK -> NST
+TRM.UNBLOCK -> NST
+TRM.EXIT -> NST
+TRM.KILL -> NST
+100%: Checks: 4, Failures: 0, Errors: 0

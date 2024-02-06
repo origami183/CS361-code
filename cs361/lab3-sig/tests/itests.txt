@@ -1,0 +1,8 @@
+MIN_segfault                   pass
+MIN_sigint                     pass
+MIN_sigint_hup                 pass
+MIN_twosig_hup                 pass
+MIN_twosig_segv                pass
+MIN_all_segv                   pass
+MIN_all_hup                    pass
+No memory leak found.

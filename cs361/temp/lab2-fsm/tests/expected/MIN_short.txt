@@ -1,0 +1,8 @@
+NEW.ADMIT -> RDY
+  [Process is live]
+RDY.DISPATCH -> RUN
+RUN.EXIT -> TRM
+
+  Process stats:
+    runtime: 1
+    normal exit: true

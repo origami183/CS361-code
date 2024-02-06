@@ -1,0 +1,14 @@
+# list of integration tests
+#  format: run_test <TAG> <ARGS>
+#    <TAG>      used as the root for all filenames (i.e., "expected/$TAG.txt")
+#    <ARGS>     command-line arguments to test
+
+run_test    INTEG_localhost_ipv4      "localhost"
+run_test    INTEG_localhost_ipv6      "-6 localhost"
+run_test    INTEG_w3_ipv6             "-6 w3.cs.jmu.edu"
+run_test    INTEG_w3_ipv4             "w3.cs.jmu.edu"
+run_test    INTEG_53_ns3              "-p 53 ns3.jmu.edu"
+run_test    INTEG_53_ns3_ipv6         "-6 -p 53 ns3.jmu.edu"
+run_test    EXTRA_youtube           "-w / youtube.com"
+run_test    EXTRA_w3_index          "-w /index.html w3.cs.jmu.edu"
+run_test    EXTRA_nope              "-w /nope.html example.com"

@@ -1,0 +1,6 @@
+main.c                         pass
+mutex.c                        pass
+mutex.h                        pass
+pingpong.c                     pass
+pingpong.h                     pass
+Code correctly adheres to required style.

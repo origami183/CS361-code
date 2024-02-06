@@ -1,0 +1,10 @@
+# list of integration tests
+#  format: run_test <TAG> <ARGS>
+#    <TAG>      used as the root for all filenames (i.e., "expected/$TAG.txt")
+#    <ARGS>     command-line arguments to test
+
+run_test    INTEG_movies              "-m"
+run_test    INTEG_add                 "-a 25 3"
+run_test    INTEG_add_neg             "-a 15 -20"
+run_test    INTEG_sub                 "-s 10 5"
+run_test    INTEG_sub_neg             "-s 5 -2"

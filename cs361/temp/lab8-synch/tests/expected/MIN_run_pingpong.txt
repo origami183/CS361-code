@@ -1,0 +1,24 @@
+Running a controlled timing exercise
+PING!
+PONG!
+PING!
+PONG!
+PING!
+PONG!
+PING!
+PONG!
+PING!
+PONG!
+PING!
+PONG!
+PING!
+PONG!
+PING!
+PONG!
+PING!
+PONG!
+PING!
+PONG!
+PONG: Game over
+PING: Game over
+Value of result should be 0: 0

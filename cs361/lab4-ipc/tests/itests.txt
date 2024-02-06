@@ -1,0 +1,5 @@
+MIN_fork                       pass
+MIN_fork_no_file               pass
+MIN_spawn                      pass
+MIN_spawn_bad                  pass
+No memory leak found.

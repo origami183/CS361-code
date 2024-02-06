@@ -1,0 +1,40 @@
+==1635638== Memcheck, a memory error detector
+==1635638== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1635638== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==1635638== Command: ../sigs -s 1 -s 2 SEGV
+==1635638== 
+NOT OVERRIDEN
+==1635664== 
+==1635664== Process terminating with default action of signal 11 (SIGSEGV)
+==1635664==    at 0x109C81: run_child (child.c:92)
+==1635664==    by 0x1094C9: main (main.c:59)
+==1635664== 
+==1635664== HEAP SUMMARY:
+==1635664==     in use at exit: 3,889 bytes in 16 blocks
+==1635664==   total heap usage: 21 allocs, 5 frees, 13,145 bytes allocated
+==1635664== 
+==1635664== LEAK SUMMARY:
+==1635664==    definitely lost: 0 bytes in 0 blocks
+==1635664==    indirectly lost: 0 bytes in 0 blocks
+==1635664==      possibly lost: 0 bytes in 0 blocks
+==1635664==    still reachable: 3,889 bytes in 16 blocks
+==1635664==         suppressed: 0 bytes in 0 blocks
+==1635664== Rerun with --leak-check=full to see details of leaked memory
+==1635664== 
+==1635664== For lists of detected and suppressed errors, rerun with: -s
+==1635664== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==1635638== 
+==1635638== HEAP SUMMARY:
+==1635638==     in use at exit: 64 bytes in 2 blocks
+==1635638==   total heap usage: 21 allocs, 19 frees, 13,145 bytes allocated
+==1635638== 
+==1635638== LEAK SUMMARY:
+==1635638==    definitely lost: 0 bytes in 0 blocks
+==1635638==    indirectly lost: 0 bytes in 0 blocks
+==1635638==      possibly lost: 0 bytes in 0 blocks
+==1635638==    still reachable: 64 bytes in 2 blocks
+==1635638==         suppressed: 0 bytes in 0 blocks
+==1635638== Rerun with --leak-check=full to see details of leaked memory
+==1635638== 
+==1635638== For lists of detected and suppressed errors, rerun with: -s
+==1635638== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

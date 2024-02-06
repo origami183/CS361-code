@@ -1,0 +1,12 @@
+Given g = 131, p = 263, g2n = 195 => n = 229
+Given g = 227, p = 439, g2n = 327 => n = 429
+Given g = 262, p = 523, g2n = 390 => n = 191
+Given g = 414, p = 829, g2n = 521 => n = 757
+Given g = 442, p = 883, g2n = 660 => n = 723
+Given g = 474, p = 947, g2n = 708 => n = 539
+Given g = 511, p = 1009, g2n = 756 => n = 974
+Given g = 526, p = 1049, g2n = 786 => n = 681
+Given g = 398, p = 797, g2n = 597 => n = 235
+Given g = 274, p = 547, g2n = 408 => n = 509
+Given g = 606, p = 1213, g2n = 909 => n = 892
+Given g = 11, p = 23, g2n = 15 => n = 19

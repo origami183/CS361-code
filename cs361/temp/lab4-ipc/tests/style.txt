@@ -1,0 +1,4 @@
+main.c                         pass
+pipe.c                         pass
+pipe.h                         pass
+Code correctly adheres to required style.

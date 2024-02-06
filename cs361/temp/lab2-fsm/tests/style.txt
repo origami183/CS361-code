@@ -1,0 +1,8 @@
+effects.c                      pass
+effects.h                      pass
+main.c                         pass
+procmodel.c                    pass
+procmodel.h                    pass
+statemodel.c                   pass
+statemodel.h                   pass
+Code correctly adheres to required style.
